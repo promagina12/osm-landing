@@ -1,0 +1,52 @@
+.second {
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+
+    .first-h5 {
+      color: #363636;
+    }
+
+    .second-h5 {
+      color: #ffffff;
+    }
+
+    h5 {
+      font-size: 16px;
+      font-weight: 300;
+      text-align: left;
+      letter-spacing: 0;
+      padding: 10px;
+      margin-left: 40px;
+    }
+
+    p {
+      font-size: 14px;
+      font-weight: 300;
+      text-align: left;
+      width: 430px;
+      height: 67px;
+      letter-spacing: 0;
+      padding: 10px;
+    }
+
+    .ready {
+      width: 530px;
+      height: 178px;
+      border-radius: 12px;
+      border-bottom: 12px solid #5874ff;
+      text-align: -webkit-center;
+      color: #5e6a8b;
+    }
+
+    .talk {
+      width: 530px;
+      height: 178px;
+      border-radius: 12px;
+      background: #ff7979;
+      text-align: -webkit-center;
+      color: #ffffff;
+    }
+  }
+}

@@ -1,0 +1,97 @@
+.third .container .subscription {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: -340px;
+}
+
+.third .container .subscription h2 {
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: 0;
+  color: #363636;
+}
+
+.third .container .subscription p {
+  padding: 16px 160px 0 120px;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0;
+  color: var(--color1);
+  margin-top: 25px;
+}
+
+.third .container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.third .container ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.third .container ul li h5 {
+  font-size: 45px;
+  font-weight: 300;
+  letter-spacing: 0;
+  width: 123px;
+  height: 45px;
+  text-align: left;
+  margin-left: 70px;
+  margin-bottom: 40px;
+}
+
+.third .container ul li p {
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0;
+  width: 279px;
+  height: 139px;
+  text-align: center;
+  padding: 12px;
+  color: #364f69;
+}
+
+.third .container ul li h6 {
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: 0;
+  width: 78px;
+  height: 32px;
+  text-align: center;
+  padding: 10px;
+  color: #f97d7d;
+  margin: -55px 0 0 90px;
+}
+
+.third .container ul li .pro {
+  margin-left: 100px;
+}
+
+.third .container ul li .Agency {
+  margin-left: 60px;
+}
+
+.third .container ul li .basic-button {
+  background: #ff7979;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+.third .container ul li .pro-button {
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 75px;
+}
+/*# sourceMappingURL=third.css.map */

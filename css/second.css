@@ -1,0 +1,55 @@
+.second .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 100px;
+}
+
+.second .container .first-h5 {
+  color: #363636;
+}
+
+.second .container .second-h5 {
+  color: #ffffff;
+}
+
+.second .container h5 {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: 0;
+  padding: 10px;
+  margin-left: 40px;
+}
+
+.second .container p {
+  font-size: 14px;
+  font-weight: 300;
+  text-align: left;
+  width: 430px;
+  height: 67px;
+  letter-spacing: 0;
+  padding: 10px;
+}
+
+.second .container .ready {
+  width: 530px;
+  height: 178px;
+  border-radius: 12px;
+  border-bottom: 12px solid #5874ff;
+  text-align: -webkit-center;
+  color: #5e6a8b;
+}
+
+.second .container .talk {
+  width: 530px;
+  height: 178px;
+  border-radius: 12px;
+  background: #ff7979;
+  text-align: -webkit-center;
+  color: #ffffff;
+}
+/*# sourceMappingURL=second.css.map */

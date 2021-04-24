@@ -1,0 +1,50 @@
+.sixth .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.sixth .list li {
+  list-style: none;
+  width: 334px;
+  height: 162px;
+  border-radius: 12px;
+}
+
+.sixth .list h5 {
+  font-size: 16px;
+  font-weight: 300;
+  margin-left: 40px;
+}
+
+.sixth .list p {
+  font-size: 14px;
+  line-height: 28px;
+  width: 215px;
+  margin-left: 40px;
+}
+
+.sixth .list .first-list {
+  background: var(--color3);
+  color: var(--color-white);
+}
+
+.sixth .list .first-list img {
+  margin-left: 15px;
+}
+
+.sixth .list .second-list {
+  color: var(--color1);
+}
+
+.sixth .list .second-list img {
+  margin-left: 15px;
+}
+
+.sixth .list .docs {
+  color: var(--color3);
+}
+/*# sourceMappingURL=sixth.css.map */

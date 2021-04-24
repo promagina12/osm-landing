@@ -1,0 +1,25 @@
+.fourth {
+    .sub-head {
+        text-align: center;
+        padding: 100px 0 0 0;
+
+        h2 {
+            font-size: 32px;
+            font-weight: 300;
+            text-align: center;
+        }
+
+        .tittle {
+            color: var(--color3);
+        }
+
+        .second-tittle {
+            color: var(--color2);
+            padding: 0 0 50px 0;
+        }
+
+        img {
+            padding-bottom: 200px;
+        }
+    }
+}

@@ -1,0 +1,85 @@
+.first .second-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.first .second-container .focus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.first .second-container .productivity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 50px;
+}
+
+.first .second-container .resources {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.first .second-container cite {
+  font-size: 14px;
+  text-align: left;
+  font-weight: 300;
+  line-height: 30px;
+  color: #f97d7d;
+  font-style: normal;
+}
+
+.first .second-container h2 {
+  font-size: 28px;
+  font-weight: 300;
+  text-align: left;
+  line-height: 34px;
+  letter-spacing: 0;
+  width: 287px;
+  height: 62px;
+  color: #363636;
+}
+
+.first .second-container p {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+  line-height: 34px;
+  letter-spacing: 0;
+  width: 549px;
+  height: 168px;
+  color: #5e6a8b;
+}
+
+.first .second-container a {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 34px;
+  letter-spacing: 0;
+  width: 76px;
+  height: 14px;
+  color: #1f64ff;
+  text-decoration: none;
+  border-bottom: 3px solid #f97d7d;
+  padding: 5px;
+}
+/*# sourceMappingURL=first.css.map */

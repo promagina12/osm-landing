@@ -1,0 +1,54 @@
+.header {
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    .intro {
+      h1 {
+        font-size: 64px;
+        text-align: left;
+        line-height: 77px;
+        letter-spacing: 0;
+        color: #5874ff;
+        font-weight: 300;
+        width: 440px;
+        height: 141px;
+      }
+
+      p {
+        font-size: 16px;
+        text-align: left;
+        line-height: 34px;
+        letter-spacing: 0;
+        color: #5e6a8b;
+        font-weight: 300;
+        width: 504px;
+        margin-top: -20px;
+        margin-bottom: 30px;
+      }
+    }
+
+    .get-started {
+      background-color: #5874ff;
+      color: #fff;
+      text-decoration: none;
+      margin-right: 15px;
+    }
+
+    .watch {
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 144px;
+      letter-spacing: 0;
+      width: 107px;
+      height: 14px;
+      text-align: left;
+      color: #5e6a8b;
+      text-decoration: none;
+
+      img {
+        margin-bottom: -5px;
+      }
+    }
+  }
+}

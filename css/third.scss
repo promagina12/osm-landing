@@ -1,0 +1,92 @@
+.third {
+  .container {
+    .subscription {
+      display: flex;
+      padding: 30px;
+      justify-content: center;
+      margin-left: -340px;
+
+      h2 {
+        font-size: 32px;
+        font-weight: 300;
+        letter-spacing: 0;
+        color: #363636;
+      }
+
+      p {
+        padding: 16px 160px 0 120px;
+        font-size: 16px;
+        font-weight: 300;
+        letter-spacing: 0;
+        color: var(--color1);
+        margin-top: 25px;
+      }
+    }
+
+    ul {
+      display: flex;
+      justify-content: space-evenly;
+
+      li {
+        text-decoration: none;
+        list-style: none;
+
+        h5 {
+          font-size: 45px;
+          font-weight: 300;
+          letter-spacing: 0;
+          width: 123px;
+          height: 45px;
+          text-align: left;
+          margin-left: 70px;
+          margin-bottom: 40px;
+        }
+
+        p {
+          font-size: 14px;
+          font-weight: 300;
+          letter-spacing: 0;
+          width: 279px;
+          height: 139px;
+          text-align: center;
+          padding: 12px;
+          color: #364f69;
+        }
+
+        h6 {
+          font-size: 32px;
+          font-weight: 300;
+          letter-spacing: 0;
+          width: 78px;
+          height: 32px;
+          text-align: center;
+          padding: 10px;
+          color: #f97d7d;
+          margin: -55px 0 0 90px;
+        }
+
+        .pro {
+          margin-left: 100px;
+        }
+
+        .Agency {
+          margin-left: 60px;
+        }
+
+        .basic-button {
+          background: #ff7979;
+          color: #ffffff;
+          text-decoration: none;
+          margin-left: 50px;
+        }
+
+        .pro-button {
+          background: #000;
+          color: #fff;
+          text-decoration: none;
+          margin-left: 75px;
+        }
+      }
+    }
+  }
+}

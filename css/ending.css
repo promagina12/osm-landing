@@ -1,0 +1,96 @@
+.ending .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 60px;
+}
+
+.ending .container .ending-title {
+  width: 535px;
+}
+
+.ending .container .ending-title h2 {
+  font-weight: 300;
+  line-height: 38px;
+  font-size: 32px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.ending .container .ending-title .first-h2 {
+  color: var(--color3);
+}
+
+.ending .container .ending-title .second-h2 {
+  color: var(--color2);
+}
+
+.ending .container li {
+  list-style: none;
+  color: var(--color1);
+}
+
+.ending .container li .email {
+  font-weight: bold;
+}
+
+.ending .footer {
+  padding-bottom: 25px;
+}
+
+.ending .footer .ending-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ending .footer .ending-logo .end-logo {
+  margin: 12px 0 0 -58px;
+}
+
+.ending .footer .ending-logo p {
+  padding-left: 10px;
+  padding-right: 115px;
+  font-size: 14px;
+  font-weight: 300;
+  height: 14px;
+  color: var(--color1);
+}
+
+.ending .footer .social-list {
+  margin-right: 0;
+}
+
+.ending .footer .social-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ending .footer .social-list ul li {
+  padding-right: 75px;
+}
+
+.ending .footer .social-list ul li a {
+  text-decoration: none;
+}
+
+.ending .footer .social-list ul li .follow-us {
+  color: var(--color4);
+}
+
+.ending .footer .social-list ul li .facebook {
+  color: var(--color1);
+}
+
+.ending .footer .social-list ul li .twitter {
+  color: var(--color1);
+}
+
+.ending .footer .social-list ul li .instagram {
+  color: var(--color1);
+}
+/*# sourceMappingURL=ending.css.map */
