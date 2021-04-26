@@ -3,7 +3,14 @@
     display: flex;
     justify-content: space-evenly;
     padding: 50px;
+    position: relative;
+
     .intro {
+      background-image: url("/images/line-1.png");
+      background-repeat: no-repeat;
+      background-position-y: 26%;
+      background-size: 108% 20%;
+
       h1 {
         font-size: 64px;
         text-align: left;

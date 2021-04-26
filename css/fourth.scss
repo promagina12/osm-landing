@@ -1,4 +1,9 @@
 .fourth {
+    background-image: url("/images/path-3.png");
+    background-position-x: 49%;
+    background-position-y: 40%;
+    background-repeat: no-repeat;
+
     .sub-head {
         text-align: center;
         padding: 100px 0 0 0;
@@ -16,6 +21,11 @@
         .second-tittle {
             color: var(--color2);
             padding: 0 0 50px 0;
+            background-image: url("/images/line-3.png");
+            background-size: 27% 16%;
+            background-repeat: no-repeat;
+            background-position-x: 50%;
+            background-position-y: 50%;
         }
 
         img {

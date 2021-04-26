@@ -4,7 +4,7 @@
       display: flex;
       padding: 30px;
       justify-content: center;
-      margin-left: -340px;
+      margin-left: -522px;
 
       h2 {
         font-size: 32px;
@@ -27,6 +27,24 @@
       display: flex;
       justify-content: space-evenly;
 
+      .first {
+        border: 1px solid #ededed;
+        border-radius: 12px;
+
+        h5 {
+          color: var(--color2);
+          background-image: url("/images/line-3.png");
+          background-repeat: no-repeat;
+          background-size: 100%;
+          background-position-y: 92%;
+          width: 130px;
+        }
+
+        h6 {
+          margin-left: 100px;
+        }
+      }
+
       li {
         text-decoration: none;
         list-style: none;
@@ -35,10 +53,9 @@
           font-size: 45px;
           font-weight: 300;
           letter-spacing: 0;
-          width: 123px;
           height: 45px;
           text-align: left;
-          margin-left: 70px;
+          margin-left: 90px;
           margin-bottom: 40px;
         }
 
@@ -67,17 +84,30 @@
 
         .pro {
           margin-left: 100px;
+          background-image: url("/images/line-2.png");
+          background-repeat: no-repeat;
+          background-position-y: 92%;
+          width: 92px;
         }
 
         .Agency {
           margin-left: 60px;
+          background-image: url("/images/line-4.png");
+          background-repeat: no-repeat;
+          background-position-y: 92%;
+          font-size: 45px;
+          font-weight: 300;
+          letter-spacing: 0;
+          height: 45px;
+          text-align: left;
+          margin-bottom: 40px;
         }
 
         .basic-button {
           background: #ff7979;
           color: #ffffff;
           text-decoration: none;
-          margin-left: 50px;
+          margin-left: 70px;
         }
 
         .pro-button {

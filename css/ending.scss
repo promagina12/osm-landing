@@ -1,4 +1,5 @@
 .ending {
+    background: #f4f5f8;
     .container {
         display: flex;
         justify-content: space-evenly;
@@ -36,7 +37,7 @@
 
     .footer {
         padding-bottom: 25px;
-        
+
         .ending-logo {
             display: flex;
 
@@ -47,6 +48,7 @@
             p {
                 padding-left: 10px;
                 padding-right: 115px;
+                margin-top: 16px;
                 font-size: 14px;
                 font-weight: 300;
                 height: 14px;

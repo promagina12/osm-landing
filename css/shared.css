@@ -34,6 +34,27 @@ body {
   padding: 19px 34px 16px 31px;
 }
 
+.background .path-2 img {
+  position: absolute;
+  left: -10%;
+  top: -75%;
+  z-index: -999;
+}
+
+.bg-image {
+  background-image: url("/images/Path.png");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: -53%;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  background-size: 67% 90%;
+}
+
 .header .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -42,6 +63,14 @@ body {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   padding: 50px;
+  position: relative;
+}
+
+.header .container .intro {
+  background-image: url("/images/line-1.png");
+  background-repeat: no-repeat;
+  background-position-y: 26%;
+  background-size: 108% 20%;
 }
 
 .header .container .intro h1 {
@@ -256,6 +285,8 @@ body {
   letter-spacing: 0;
   padding: 10px;
   margin-left: 40px;
+  margin-bottom: -15px;
+  margin-top: 40px;
 }
 
 .second .container p {
@@ -272,9 +303,12 @@ body {
   width: 530px;
   height: 178px;
   border-radius: 12px;
-  border-bottom: 12px solid #5874ff;
+  border-bottom: 8px solid #5874ff;
   text-align: -webkit-center;
   color: #5e6a8b;
+  -webkit-box-shadow: 0 10px 34px var(--color1);
+          box-shadow: 0 10px 34px var(--color1);
+  margin-left: 50px;
 }
 
 .second .container .talk {
@@ -284,6 +318,10 @@ body {
   background: #ff7979;
   text-align: -webkit-center;
   color: #ffffff;
+  -webkit-box-shadow: 0 10px 34px;
+          box-shadow: 0 10px 34px;
+  margin-left: -210px;
+  border-bottom: 8px solid #ff7979;
 }
 
 .third .container .subscription {
@@ -294,7 +332,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-left: -340px;
+  margin-left: -522px;
 }
 
 .third .container .subscription h2 {
@@ -322,6 +360,24 @@ body {
           justify-content: space-evenly;
 }
 
+.third .container ul .first {
+  border: 1px solid #ededed;
+  border-radius: 12px;
+}
+
+.third .container ul .first h5 {
+  color: var(--color2);
+  background-image: url("/images/line-3.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: 92%;
+  width: 130px;
+}
+
+.third .container ul .first h6 {
+  margin-left: 100px;
+}
+
 .third .container ul li {
   text-decoration: none;
   list-style: none;
@@ -331,10 +387,9 @@ body {
   font-size: 45px;
   font-weight: 300;
   letter-spacing: 0;
-  width: 123px;
   height: 45px;
   text-align: left;
-  margin-left: 70px;
+  margin-left: 90px;
   margin-bottom: 40px;
 }
 
@@ -363,17 +418,30 @@ body {
 
 .third .container ul li .pro {
   margin-left: 100px;
+  background-image: url("/images/line-2.png");
+  background-repeat: no-repeat;
+  background-position-y: 92%;
+  width: 92px;
 }
 
 .third .container ul li .Agency {
   margin-left: 60px;
+  background-image: url("/images/line-4.png");
+  background-repeat: no-repeat;
+  background-position-y: 92%;
+  font-size: 45px;
+  font-weight: 300;
+  letter-spacing: 0;
+  height: 45px;
+  text-align: left;
+  margin-bottom: 40px;
 }
 
 .third .container ul li .basic-button {
   background: #ff7979;
   color: #ffffff;
   text-decoration: none;
-  margin-left: 50px;
+  margin-left: 70px;
 }
 
 .third .container ul li .pro-button {
@@ -381,6 +449,13 @@ body {
   color: #fff;
   text-decoration: none;
   margin-left: 75px;
+}
+
+.fourth {
+  background-image: url("/images/path-3.png");
+  background-position-x: 49%;
+  background-position-y: 40%;
+  background-repeat: no-repeat;
 }
 
 .fourth .sub-head {
@@ -401,6 +476,11 @@ body {
 .fourth .sub-head .second-tittle {
   color: var(--color2);
   padding: 0 0 50px 0;
+  background-image: url("/images/line-3.png");
+  background-size: 27% 16%;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
 }
 
 .fourth .sub-head img {
@@ -426,8 +506,6 @@ body {
   width: 56px;
   background-color: var(--color-white);
   border-radius: 50%;
-  -webkit-box-shadow: 0px 1px #000000;
-          box-shadow: 0px 1px #000000;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   top: 40%;
@@ -508,6 +586,10 @@ body {
   font-size: 14px;
 }
 
+.sixth {
+  margin-bottom: 80px;
+}
+
 .sixth .list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -522,6 +604,8 @@ body {
   width: 334px;
   height: 162px;
   border-radius: 12px;
+  -webkit-box-shadow: 0 10px 34px;
+          box-shadow: 0 10px 34px;
 }
 
 .sixth .list h5 {
@@ -540,6 +624,7 @@ body {
 .sixth .list .first-list {
   background: var(--color3);
   color: var(--color-white);
+  background-image: url("/images/peanut-3.png");
 }
 
 .sixth .list .first-list img {
@@ -554,8 +639,20 @@ body {
   margin-left: 15px;
 }
 
+.sixth .list .second-lists {
+  background-image: url("/images/peanut-4.png");
+}
+
+.sixth .list .third-list {
+  background-image: url("/images/peanut-5.png");
+}
+
 .sixth .list .docs {
   color: var(--color3);
+}
+
+.ending {
+  background: #f4f5f8;
 }
 
 .ending .container {
@@ -614,6 +711,7 @@ body {
 .ending .footer .ending-logo p {
   padding-left: 10px;
   padding-right: 115px;
+  margin-top: 16px;
   font-size: 14px;
   font-weight: 300;
   height: 14px;

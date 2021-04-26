@@ -23,6 +23,8 @@
   letter-spacing: 0;
   padding: 10px;
   margin-left: 40px;
+  margin-bottom: -15px;
+  margin-top: 40px;
 }
 
 .second .container p {
@@ -39,9 +41,12 @@
   width: 530px;
   height: 178px;
   border-radius: 12px;
-  border-bottom: 12px solid #5874ff;
+  border-bottom: 8px solid #5874ff;
   text-align: -webkit-center;
   color: #5e6a8b;
+  -webkit-box-shadow: 0 10px 34px var(--color1);
+          box-shadow: 0 10px 34px var(--color1);
+  margin-left: 50px;
 }
 
 .second .container .talk {
@@ -51,5 +56,9 @@
   background: #ff7979;
   text-align: -webkit-center;
   color: #ffffff;
+  -webkit-box-shadow: 0 10px 34px;
+          box-shadow: 0 10px 34px;
+  margin-left: -210px;
+  border-bottom: 8px solid #ff7979;
 }
 /*# sourceMappingURL=second.css.map */

@@ -1,0 +1,21 @@
+.background .path-2 img {
+  position: absolute;
+  left: -10%;
+  top: -75%;
+  z-index: -999;
+}
+
+.bg-image {
+  background-image: url("/images/Path.png");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: -53%;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  background-size: 67% 90%;
+}
+/*# sourceMappingURL=background.css.map */

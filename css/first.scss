@@ -1,10 +1,27 @@
-
 .first {
   .second-container {
     display: grid;
     justify-content: space-around;
     padding: 50px;
     margin-top: 50px;
+
+    // .creative {
+    //   background-image: url("/images/peanut-1.png");
+    //   background-position-x: 62%;
+    //   background-position-y: 345.2px;
+    // }
+
+    // .office {
+    //   background-image: url("/images/peanut-2.png");
+    //   background-position-x: 82%;
+    //   background-position-y: 50%;
+    // }
+
+    // .listening {
+    //   background-image: url("/images/peanut-6.png");
+    //   background-position-x: 75%;
+    //   background-position-y: 70%;
+    // }
 
     .focus {
       display: flex;
